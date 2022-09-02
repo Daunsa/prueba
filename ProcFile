@@ -1,2 +1,2 @@
-web: gunicorn prueba.wsgi --log-file -
 heroku ps:scale web=1
+web: gunicorn prueba.wsgi --log-file -
